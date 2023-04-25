@@ -1,0 +1,129 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  background: url("../images/pattern-background-mobile.svg") no-repeat, #e0e8ff;
+  background-size: 100% auto;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+}
+.card {
+  max-width: 450px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  min-height: 567px;
+  max-height: 697px;
+}
+.card_img {
+  width: 100%;
+}
+.card_text-containet {
+  padding: 32px 24px;
+  text-align: center;
+}
+.title {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  vertical-align: top;
+  color: #1f2e55;
+}
+.text {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #717fa6;
+}
+.payment {
+  background-color: #f7f9ff;
+  width: 100%;
+  padding: 21px 16px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  /* height: 60px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.peyment-tipe {
+  display: flex;
+  flex-direction: column;
+  padding-left: 68px;
+  line-height: 19px;
+}
+.peyment-tipe::before {
+  content: " ";
+  background: url("../images/icon-music.svg");
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.period {
+  color: #1f2e55;
+  font-weight: 900;
+}
+.cost {
+  color: #717fa6;
+  font-weight: 500;
+}
+.paiment-tipe-change {
+  color: #382ae1;
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 900;
+}
+.paiment-tipe-change:hover {
+  cursor: pointer;
+  color: #766cf1;
+  text-decoration: none;
+}
+.payment-button {
+  background-color: #382ae1;
+  border-radius: 10px;
+  width: 100%;
+  filter: drop-shadow(0 20px 10px rgba(56, 42, 225, 0.1903));
+  margin-bottom: 24px;
+}
+.payment-button:hover {
+  cursor: pointer;
+  background-color: #766cf1;
+}
+.payment-button-text {
+  display: block;
+  padding: 15px 64px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  /* white-space: nowrap; */
+}
+.order-cancel {
+  display: block;
+  text-transform: capitalize;
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+.order-cancel:hover {
+  cursor: pointer;
+  color: #1f2e55;
+}
